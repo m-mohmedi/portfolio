@@ -1,0 +1,18 @@
+nav.main-navbar {
+  background-color: #fff;
+}
+
+nav.main-navbar > section {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px var(--side-padding);
+}
+
+nav.main-navbar > section > div {
+  display: flex;
+}
+
+nav.main-navbar > section > div:first-child .logo {
+  display: block;
+  height: 2em;
+}

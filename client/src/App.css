@@ -1,0 +1,19 @@
+
+:root {
+  /* theme */
+  --side-padding: 16px;
+  --primary-color: #f1c40f;
+  --accent-color: #e74c3c;
+  /* colors */
+  --chrome-l0: #fff;
+  --chrome-l1: #fafafa;
+  --chrome-l2: #fcfcfc;
+  --chrome-d0: #000;
+  --chrome-d1: #333;
+  --chrome-d2: #7f8c8d;
+}
+
+body {
+  direction: rtl;
+  background-color: #fafafa;
+}

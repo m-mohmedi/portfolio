@@ -1,0 +1,37 @@
+:root {
+  /* theme */
+  --side-padding: 16px;
+  --primary-color: #f1c40f;
+  --accent-color: #e74c3c;
+  /* colors */
+  --chrome-l0: #fff;
+  --chrome-l1: #fafafa;
+  --chrome-l2: #fcfcfc;
+  --chrome-d0: #000;
+  --chrome-d1: #333;
+  --chrome-d2: #7f8c8d;
+}
+
+body {
+  direction: rtl;
+  background-color: #fafafa;
+}
+
+nav.main-navbar {
+  background-color: #fff;
+}
+
+nav.main-navbar > section {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px var(--side-padding);
+}
+
+nav.main-navbar > section > div {
+  display: flex;
+}
+
+nav.main-navbar > section > div:first-child .logo {
+  display: block;
+  height: 2em;
+}
